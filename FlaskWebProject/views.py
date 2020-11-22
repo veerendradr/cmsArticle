@@ -34,7 +34,7 @@ def home():
     return render_template(
         'index.html',
         title='Home Page',
-        posts=posts
+        posts=posts,
         log=log
     )
 
