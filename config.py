@@ -7,7 +7,7 @@ class Config(object):
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'cmsstrgeacct'
     BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'HqHdVZakW5tQoil1nqVMYBby9IpJQjIFM+h2o/rDc3TlaT9l3Y6TJ8PivvQC+Gwrdysf9q7zUyuw9EmCShnI+w=='
-    BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'cmcimages'
+    BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'cmsimages'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'cms123.database.windows.net'
     SQL_DATABASE = os.environ.get('SQL_DATABASE') or 'CMS-DB'
